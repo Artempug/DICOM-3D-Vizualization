@@ -21,3 +21,7 @@ The program sets up animation control buttons, such as "Play," for automatic pla
 
 
 
+
+![Sample Animation](https://github.com/user-attachments/assets/4470ed0a-0a88-4a2c-93d1-20bb2fe0b9c2)
+
+
