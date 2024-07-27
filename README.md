@@ -9,10 +9,12 @@ Creating and Configuring Animation:
 The program uses the plotly library to create an interactive 3D visualization.
 Each image in pixels_volume is represented as a separate "frame" (go.Frame) for animation.
 The initial state of the animation displays the first surface (initial_surface) of the volume data.
+
 Interactive Controls:
 
 The program creates an interactive slider using ipywidgets, allowing the user to select different slices of the volume image.
 The function update_slider updates the displayed image when the slider position changes.
+
 Building and Launching the Animation:
 
 The program sets up animation control buttons, such as "Play," for automatic playback.
