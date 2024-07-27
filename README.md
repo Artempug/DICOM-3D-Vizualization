@@ -18,5 +18,5 @@ Building and Launching the Animation:
 The program sets up animation control buttons, such as "Play," for automatic playback.
 
 
-
+![](https://github.com/Artempug/DICOM-3D-Vizualization/blob/main/Untitled7.ipynb%20-%20Colab%20-%20Google%20Chrome%202024-07-27%2011-46-49%20(online-video-cutter.com).gif)
 
