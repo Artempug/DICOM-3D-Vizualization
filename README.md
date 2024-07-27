@@ -17,11 +17,6 @@ Building and Launching the Animation:
 
 The program sets up animation control buttons, such as "Play," for automatic playback.
 
-
-
-
-
-
-![Sample Animation](https://github.com/user-attachments/assets/4470ed0a-0a88-4a2c-93d1-20bb2fe0b9c2)
+![Sample Animation](https://github.com/user-attachments/assets/1dcf7f7a-aa49-4d14-b67a-60ba4ed53022)
 
 
