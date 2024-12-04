@@ -1,23 +1,49 @@
-# DICOM-3D-Vizualization
-This program visualizes medical images in DICOM format, which are often used in medical scanners such as CT and MRI.
-Loading DICOM Files: The pydicom library is used to read files with the .dcm extension, which contain medical images. The program assumes that these files are located in the current directory of Google Colab.
+# DICOM-3D-Visualization
 
-Extracting Pixel Data: The program loads pixel data from each DICOM file and stores it in the list all_images. Then all images are converted into a three-dimensional numpy array called pixels_volume, which represents the volume image.
+This repository provides a program for visualizing medical images in DICOM format, commonly used in medical imaging devices like CT and MRI scanners.
 
-Creating and Configuring Animation:
+---
 
-The program uses the plotly library to create an interactive 3D visualization.
-Each image in pixels_volume is represented as a separate "frame" (go.Frame) for animation.
-The initial state of the animation displays the first surface (initial_surface) of the volume data.
+## **Features**
 
-Interactive Controls:
+### **1. Loading DICOM Files**
+- Utilizes the **pydicom** library to read `.dcm` files containing medical images.  
+- Assumes the DICOM files are stored in the **current working directory** (e.g., Google Colab).
 
-The program creates an interactive slider using ipywidgets, allowing the user to select different slices of the volume image.
-The function update_slider updates the displayed image when the slider position changes.
+### **2. Extracting Pixel Data**
+- Loads pixel data from each DICOM file into a list called `all_images`.  
+- Converts the list into a **3D numpy array** (`pixels_volume`) representing the volumetric image.
 
-Building and Launching the Animation:
+### **3. 3D Visualization**
+- Employs the **plotly** library for interactive 3D rendering.  
+- Each slice in the `pixels_volume` is visualized as a "frame" (`go.Frame`) within an animation.  
+- The initial state displays the first surface (`initial_surface`) of the 3D volume.
 
-The program sets up animation control buttons, such as "Play," for automatic playback.
+### **4. Interactive Controls**
+- Adds an **interactive slider** using `ipywidgets`, enabling the user to navigate through slices of the volume.  
+- A function, `update_slider`, dynamically updates the displayed image based on the slider's position.
+
+### **5. Animation Setup**
+- Includes playback controls, such as **"Play"**, to automate the visualization for an enhanced viewing experience.
+
+---
+
+## **Getting Started**
+
+### **Dependencies**
+- `pydicom`
+- `numpy`
+- `plotly`
+- `ipywidgets`
+
+### **Usage**
+1. Place `.dcm` files in the specified directory.
+2. Run the script in **Google Colab** or your local environment.
+3. Explore and interact with the 3D visualization via the slider or animation controls.
+
+---
+
+This program simplifies the process of analyzing complex medical images, providing an intuitive way to explore DICOM data interactively.
 
 
 ![](https://github.com/Artempug/DICOM-3D-Vizualization/blob/main/Untitled7.ipynb%20-%20Colab%20-%20Google%20Chrome%202024-07-27%2011-46-49%20(online-video-cutter.com).gif)
